@@ -10,3 +10,4 @@ ufw allow 9080
 ufw allow 8080
 ufw status
 systemctl restart jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
