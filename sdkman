@@ -1,0 +1,14 @@
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
+sdk list java
+sdk install java 8.0.212-zulu
+java -version
+sdk list maven
+sdk install maven  3.6.1
+sudo apt-get install nano
+nano ~/.bashrc
+source ~/.bashrc
+mvn -v
+
+
